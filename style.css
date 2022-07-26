@@ -602,6 +602,11 @@ span .fa-solid {
   color: #fff;
 }
 
+.foot-address {
+  padding: 10px 0px 30px;
+  font-size: 14px;
+}
+
 .footer-title {
   font-weight: 600;
   letter-spacing: 2px;
@@ -925,6 +930,66 @@ span .fa-solid {
     font-size: 10px;
     letter-spacing: 1px;
     font-family: "Poppins", sans-serif;
+  }
+
+  .about-btn {
+    display: none;
+  }
+
+  .extra-link {
+    display: block;
+    text-align: left;
+  }
+}
+@media (max-width: 360px) {
+  .banner-text {
+    padding-left: 14px;
+  }
+
+  .banner {
+    border-radius: 3rem 0 3rem 3rem;
+  }
+
+  .banner-text h1 {
+    font-size: 1.7rem;
+  }
+  .about-text h2,
+  .heading h2,
+  .newsletter h2 {
+    font-size: 1.2rem;
+  }
+
+  .services-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-gap: 20px;
+    justify-content: center;
+  }
+  .about-text p {
+    text-align: justify;
+  }
+
+  .gallery-wrapper a img {
+    height: 244px;
+    width: 320px;
+  }
+  .gallery-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+  .copyright {
+    font-size: 10px;
+  }
+
+  .name-logo {
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .container {
+    margin-left: 8px;
+    margin-right: 8px;
   }
 
   .about-btn {
