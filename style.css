@@ -941,7 +941,7 @@ span .fa-solid {
 
   .gallery-wrapper a img {
     height: 244px;
-    width: 342px;
+    width: 100%;
   }
   .copyright {
     font-size: 10px;
@@ -960,6 +960,12 @@ span .fa-solid {
   .extra-link {
     display: block;
     text-align: left;
+  }
+}
+
+@media (max-width: 414px) {
+  .gallery-wrapper {
+    margin: 0 auto;
   }
 }
 @media (max-width: 360px) {
