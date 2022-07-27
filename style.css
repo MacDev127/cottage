@@ -258,6 +258,12 @@ header {
 /* ------About Section End --------*/
 
 /* ---------Gallery Section -----------*/
+
+.gallery-container {
+  max-width: 1068px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .gallery {
   margin-bottom: 40px;
 }
@@ -280,6 +286,11 @@ header {
 /* -------Gallery Section End ---------*/
 
 /* --------Services Section-------*/
+.services-container {
+  max-width: 1068px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .services-wrapper {
   display: grid;
@@ -306,7 +317,11 @@ header {
 /* -------Services Section End -------------------------- */
 
 /* --------------------to-do---------- section-------- */
-
+.to-do-container {
+  max-width: 1068px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .activity {
   width: 100%;
   display: flex;
@@ -407,6 +422,12 @@ header {
 /* ------------------to-do section end---------------------- */
 
 /* --------------Contact section -----------------*/
+
+.contact-container {
+  max-width: 1068px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .contact-wrapper {
   position: relative;
   width: 100%;
@@ -942,6 +963,12 @@ span .fa-solid {
   }
 }
 @media (max-width: 360px) {
+  .gallery-container,
+  .to-do-container,
+  .services-container,
+  .contact-container {
+    margin: 0 auto;
+  }
   .banner-text {
     padding-left: 14px;
   }
@@ -987,9 +1014,8 @@ span .fa-solid {
     font-family: "Poppins", sans-serif;
   }
 
-  .container {
-    margin-left: 8px;
-    margin-right: 8px;
+  #container {
+    margin: 0 auto;
   }
 
   .about-btn {
